@@ -9,7 +9,8 @@ https://addons.mozilla.org/zh-CN/firefox/addon/form-inserter/
 
 step1 添加你的payload 
 
-![](img/1.jpg)
+
+<img src="img/1.jpg" width="300px">
 
 step2. 打开右键菜单，选择payload name, 插件便会自动向当前页面所有的input框和textarea框插入对应的payload  
 
