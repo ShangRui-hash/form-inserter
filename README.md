@@ -1,6 +1,6 @@
 # Form Inserter 
 
-一款用于自动向表单中插入预定义payload 的Firefox浏览器插件
+一款用于向表单中自动插入预定义payload 的Firefox浏览器插件
 <!-- ## 下载地址
 ```
 https://addons.mozilla.org/zh-CN/firefox/addon/form-inserter/
