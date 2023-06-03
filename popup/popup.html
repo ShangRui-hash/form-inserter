@@ -1,0 +1,61 @@
+<!-- popup/popup.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+
+<body class="container">
+    <div class="page-header">
+        <h5>Form Inserter <small><a href="https://github.com/ShangRui-hash">作者: 无在无不在</a></small></h5>
+    </div>
+    <div class="m-b-15">
+        <div class="m-b-15">
+            该插件用于自动向表单中插入预定义payload
+        </div>
+
+        <div class="m-b-15">
+
+            <div class="form-group">
+                <label for="payload_name">payload name</label>
+                <input type="text" class="form-control" id="payload_name" placeholder="payload name">
+            </div>
+            <div class="form-group">
+                <label for="payload">payload</label>
+                <input type="text" class="form-control" id="payload" placeholder="payload">
+            </div>
+            <div>
+                <button id="insert_btn" class="btn btn-primary btn-sm">添加 / 修改</span>
+                </button>
+                <span id="error_msg" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Payloads Table</div>
+
+            <table id="payload_table" class="table table-bordered table-container  table-hover">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>payload</th>
+                        <th>action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

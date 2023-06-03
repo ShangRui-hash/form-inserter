@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "form-inserter",
+  "version": "1.0",
+  "description": "用于自动向表单中插入预定义的payload",
+  "icons": {
+    "48": "icons/form-inserter.jpeg"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/form-inserter.jpeg",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["activeTab", "contextMenus", "storage"],
+  "applications": {
+    "gecko": {
+      "id": "forminserter@rickshang.com",
+      "strict_min_version": "42.0"
+    }
+  }
+}

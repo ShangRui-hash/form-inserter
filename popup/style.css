@@ -1,0 +1,16 @@
+.m-b-15 {
+  margin-bottom: 15px;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.table-container {
+  width: 500px; /* 设置最大宽度为 500 像素 */
+}
+
+.action-cell{
+    width: 50px;
+    text-align: center;
+}

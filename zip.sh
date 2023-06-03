@@ -1,0 +1,1 @@
+zip -r -FS ../form-inserter.zip * --exclude '*.git*'.
