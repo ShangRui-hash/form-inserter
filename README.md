@@ -1,10 +1,10 @@
 # Form Inserter 
 
 一款用于向表单中自动插入预定义payload 的Firefox浏览器插件
-<!-- ## 下载地址
+## 下载地址
 ```
 https://addons.mozilla.org/zh-CN/firefox/addon/form-inserter/
-``` -->
+```
 ## 使用方法
 
 step1 添加你的payload 
